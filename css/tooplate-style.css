@@ -127,7 +127,7 @@ http://www.tooplate.com/view/2106-soft-landing
   }
 
   .online-form button {
-    background: #29ca8e;
+    background: #ffffff;
     border: 0;
     color: #ffffff;
     position: absolute;
@@ -268,7 +268,7 @@ http://www.tooplate.com/view/2106-soft-landing
 
   .custom-navbar .nav li a:hover {
     background: transparent;
-    color: #29ca8e;
+    color: #fff;
   }
 
   .custom-navbar .navbar-nav > li > a:hover,
@@ -278,7 +278,7 @@ http://www.tooplate.com/view/2106-soft-landing
 
   .custom-navbar .nav li.active > a {
     background-color: transparent;
-    color: #29ca8e;
+    color: #fff;
   }
 
   .custom-navbar .navbar-toggle {
@@ -351,6 +351,17 @@ http://www.tooplate.com/view/2106-soft-landing
     position: relative;
     padding-top: 12em;
     text-align: center;
+  }
+
+  #home-cta {
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+  }
+
+  #home-cta img {
+    width: 100%;
+    max-width: 500px;
   }
 
   #home h1 {
@@ -442,6 +453,10 @@ http://www.tooplate.com/view/2106-soft-landing
     padding: 0;
   }
 
+  .companies {
+    background: #FFFBE6;
+  }
+
   .team-thumb {
     background: #ffffff;
     position: relative;
@@ -481,6 +496,7 @@ http://www.tooplate.com/view/2106-soft-landing
   .team-info {
     position: relative;
     padding: 40px;
+    background-color: #FFFBE6;
   }
 
   .team-info h2 {margin: 0;}
@@ -529,7 +545,6 @@ http://www.tooplate.com/view/2106-soft-landing
   .testimonial-info {
     background: #202020;
     padding: 60px;
-    height: 65vh;
   }
 
   .testimonial-info h3 {
@@ -576,7 +591,7 @@ http://www.tooplate.com/view/2106-soft-landing
   }
 
   #pricing .col-md-4 {
-    margin: 0;
+    margin-right: 20px;
     padding: 0;
   }
 
@@ -585,12 +600,13 @@ http://www.tooplate.com/view/2106-soft-landing
   }
 
   .pricing-thumb {
-    background: #ffffff;
+    background:#fffbe6;
     border-right: 2px solid #f0f0f0;
     padding: 20px 40px;
   }
 
   .pricing-title {
+    text-align: center;
     padding-bottom: 5px;
   }
 
@@ -600,8 +616,13 @@ http://www.tooplate.com/view/2106-soft-landing
   }
 
   .pricing-info,
-  .pricing-bottom {
+  .pricing-bottom {  
     padding: 20px 0;
+  }
+
+  .pricing-bottom {
+    display: flex;
+    justify-content: center;
   }
 
   .pricing-info p {
@@ -617,10 +638,8 @@ http://www.tooplate.com/view/2106-soft-landing
   }
 
   .pricing-btn {
-    position: relative;
     top: 15px;
     right: 15px;
-    display: inline-block;
   }
 
 
@@ -659,7 +678,7 @@ http://www.tooplate.com/view/2106-soft-landing
   }
 
   #contact-form input[type='submit']:hover {
-    background: #29ca8e;
+    background: #fff;
     color: #ffffff;
   }
   
@@ -697,18 +716,18 @@ http://www.tooplate.com/view/2106-soft-landing
   .social-icon li a {
     border-radius: 50px;
     color: #202020;
-    font-size: 15px;
+    font-size: 35px;
     width: 35px;
     height: 35px;
     line-height: 35px;
     text-decoration: none;
     text-align: center;
     position: relative;
-    margin: 5px 5px 5px 0;
+    margin: 5px 20px 20px 0;
   }
 
   .social-icon li a:hover {
-    background: #536976;
+    background: #f5c54e;
     color: #ffffff;
   }
 
@@ -816,8 +835,7 @@ http://www.tooplate.com/view/2106-soft-landing
       border-bottom: 15px solid #ffffff;
     }
 
-    .testimonial-image,
-    .testimonial-info {
+    .testimonial-image {
       height: 85vh;
     }
 
@@ -844,8 +862,7 @@ http://www.tooplate.com/view/2106-soft-landing
       right: 0;
     }
 
-    .testimonial-image,
-    .testimonial-info {
+    .testimonial-image {
       height: 65vh;
     }
   }
