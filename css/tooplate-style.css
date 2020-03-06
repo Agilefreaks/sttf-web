@@ -511,6 +511,13 @@ http://www.tooplate.com/view/2106-soft-landing
     width: 100%;
   }
 
+  .timeline-image {
+    background: url('../images/timeline-web.png') no-repeat center center;
+    background-size: contain;
+    height: 500px;
+    max-width: 100%;
+  }
+
 
 
   /*---------------------------------------
@@ -841,6 +848,13 @@ http://www.tooplate.com/view/2106-soft-landing
 
     .testimonial-info {
       padding: 30px;
+    }
+
+    .timeline-image {
+      background: url('../images/timelinemobile4-01.png') no-repeat center center;
+      background-size: contain;
+      height: 500px;
+      max-width: 100%;
     }
   }
 
